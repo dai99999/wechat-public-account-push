@@ -31,34 +31,34 @@ const USER_CONFIG = {
         {
           type: '*生日', name: '宝贝', year: '1996', date: '01-19',
         },
-//         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-//         {
-//           type: '生日', name: '李四', year: '1996', date: '09-31',
-//         },
-//         {
-//           type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
-//         },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '李四', year: '1996', date: '09-31',
+        },
+        {
+          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+        },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2018-12-30' },
-//         // 结婚纪念日
-//         { keyword: 'marry_day', date: '2022-09-09' },
+        // 结婚纪念日
+        { keyword: 'marry_day', date: '2022-09-09' },
       ],
     },
   ],
 
 
-//   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-//   CALLBACK_TEMPLATE_ID: '',
+  // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
+  CALLBACK_TEMPLATE_ID: '',
 
-//   CALLBACK_USERS: [
-//     {
-//       name: '自己',
-//       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-//       id: '',
-//     }
+  CALLBACK_USERS: [
+    {
+      name: '自己',
+      // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'oU3Ej6fsrqcC6_9K7jFCyQmO58S4',
+    }
   ],
 
 }
