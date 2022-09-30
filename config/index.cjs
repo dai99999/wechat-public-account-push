@@ -15,7 +15,7 @@ const USER_CONFIG = {
 
   PROVINCE: '四川',
   CITY: '成都',
-  CITY_name: '郫县',
+  CITY_NAME: '郫县',
 
   USERS: [
     {
@@ -43,7 +43,7 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'uJLe_NTcrG-1Z8u9cxp5KJjeQCNrSgWaYofY_fCA1dc',
+  CALLBACK_TEMPLATE_ID: 'GIP1SskVVyOfJg84p9aITVoOvsQJ7FNRh6aXiX8jT8w',
 
   CALLBACK_USERS: [
     {
